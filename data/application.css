@@ -1,0 +1,716 @@
+* {
+    outline-width: 0px;
+    text-shadow: none;
+}
+
+.row-big {
+    padding: 15px 5px 15px 5px;
+}
+
+.row {
+    padding: 6px 5px 6px 5px;
+}
+
+.devices-button {
+    padding: 2px;
+    min-width: 28px;
+}
+
+.usagebar {
+    border: none;
+    background-color: transparent;
+    background-image: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.usagebar progress {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    min-height: 6px;
+}
+
+.usagebar trough {
+    border: 1px solid shade(@theme_bg_color, 0.9);
+    background-color: transparent;
+    background-image: none;
+    min-height: 6px;
+}
+
+.usagebar-green progress {
+    background-color: shade(green, 1.4);
+}
+
+.usagebar-orange progress {
+    background-color: orange;
+}
+
+.usagebar-red progress {
+    background-color: red;
+}
+
+.red {
+    color: red;
+}
+
+.progressbar-button {
+    border: none;
+    background-color: transparent;
+    background-image: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.progressbar-button progress {
+    background-color: @theme_selected_bg_color;
+    background-image: none;
+    border: none;
+    border-radius: 1px;
+    min-height: 2px;
+}
+
+.progressbar-button trough {
+    border: 1px solid alpha(@theme_fg_color, 0.5);
+    border-radius: 1px;
+    min-height: 2px;
+}
+
+Gtk.ListBoxRow .loved-button {
+	border-color: transparent;
+	background-color: transparent;
+	color: transparent;
+}
+
+Gtk.ListBoxRow .loved-button:hover {
+	border-color: alpha(@theme_fg_color, 0.1);
+}
+
+Gtk.ListBoxRow .menu-button {
+	border-color: transparent;
+	background-color: transparent;
+	color: transparent;
+}
+
+Gtk.ListBoxRow .menu-button:hover {
+	border-color: alpha(@theme_fg_color, 0.1);
+}
+
+.typeahead {
+    background-color: #ed333b;
+    color: white;
+}
+
+.progress-bottom {
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    background-image: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.progress-bottom progress {
+    background-color: @theme_selected_bg_color;
+    background-image: none;
+    border: none;
+    border-radius: 0px;
+    min-height: 6px;
+}
+
+.progress-bottom trough {
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    background-image: none;
+    min-height: 6px;
+}
+
+.light-border {
+    border: 1px solid shade(@theme_bg_color, 0.7);
+    border-radius: 3px;
+    padding: 10px;    
+}
+
+.light-background {
+    background-color: shade(@theme_bg_color, 1.05);
+    border: 1px solid shade(@theme_bg_color, 0.7);
+    border-radius: 52px;
+}
+
+.no-top-border {
+    border-top: none;
+}
+
+.invisible-widget {
+    background-color: @theme_bg_color;
+}
+
+.box-shadow {
+    box-shadow: 1px 1px 5px 5px alpha(black, 0.4);
+}
+
+.background-opacity {
+    background-color: @theme_bg_color;
+    opacity: 0.99;
+}
+
+.selected {
+    color: @theme_selected_bg_color;
+}
+
+.osd-popover {
+    opacity: 0.99;
+}
+
+.miniplayer-buttons {
+    background: transparent;
+    background-image: none;
+    border: none;
+    color: alpha(white, 0.6);
+    box-shadow: none;
+}
+
+.miniplayer-buttons:hover {
+    color: white;
+}
+
+.gnome-shell {
+  font-family: Cantarell, Sans-Serif;
+  font-size: 11pt;
+}
+
+.lyrics {
+    font-weight: bold;
+    min-width: 200px;
+}
+
+.text-xx-large {
+    font-size: 40px;
+}
+
+.text-x-large {
+    font-size: x-large;
+}
+
+.text-large {
+    font-size: large;
+}
+
+.text-medium {
+    font-size: medium;
+}
+
+.lollypop-title {
+    font-weight: bold;
+    font-size: smaller;
+    padding: 0px 12px;
+}
+
+.lollypop-subtitle {
+    font-size: smaller;
+    padding: 0px 12px;
+}
+
+.mini-scale {
+    padding: 1px;
+}
+
+.youtube-scale contents trough highlight {
+    background-color: red;  
+    border-color: red;
+}
+
+.borders {
+    border: 1px solid shade(@theme_bg_color, 0.7);
+}
+
+.borders-left-top {
+    border-top: 1px solid shade(@theme_bg_color, 0.7);
+    border-left: 1px solid shade(@theme_bg_color, 0.7);
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.black-transparent {
+    background-color: alpha(black, 0.5);
+    color: white;
+}
+
+.up-btn {
+    border: 1px solid shade(@theme_bg_color, 0.7);
+    border-radius: 4px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    min-height: 0px;
+	min-width: 48px;
+}
+
+.banner-frame {
+    border-bottom: 1px solid shade(@theme_bg_color, 0.85);
+    transition: 1000ms linear;
+    background-color: transparent;
+    padding: 3px;
+    margin-bottom: 2px;
+}
+
+.banner-frame:selected {
+    border-bottom: 1px solid @theme_selected_bg_color;
+    transition: 1000ms linear;
+    background-color: transparent;
+    color: @theme_fg_color;
+}
+
+.cover-frame {
+    border: 1px solid shade(@theme_bg_color, 0.7);
+    background-color: shade(@theme_bg_color, 1.5);
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.cover-frame:selected {
+    padding: 0px;
+    border: 4px solid @theme_selected_bg_color;
+}
+
+.toolbar-cover-frame
+{
+    border-left: 1px solid shade(@theme_bg_color, 0.95);
+    border-right: 1px solid shade(@theme_bg_color, 0.95);
+    background-color: shade(@theme_bg_color, 1.5);
+}
+
+.small-cover-frame {
+    border-radius: 1px;
+    border: 1px solid shade(@theme_bg_color, 0.90);
+    background-color: shade(@theme_bg_color, 1.5);
+}
+
+.artwork-icon {
+    border: 1px solid alpha(@theme_fg_color, 0.8);
+    background-color: shade(@theme_bg_color, 1.5);
+    color: alpha(@theme_fg_color, 0.8);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.artwork-icon-large {
+    border: 10px solid alpha(@theme_fg_color, 0.8);
+    background-color: shade(@theme_bg_color, 1.5);
+    color: alpha(@theme_fg_color, 0.8);
+    border-radius: 50%;
+}
+
+.rounded-icon {
+    background: none;
+    border: none;
+    background-image: none;
+    border-image-source: none;
+    transition: 70ms linear;
+    box-shadow: 0 0 3px white;
+    background-color: alpha(black, 0.8);
+    color: alpha(white, 0.9);
+    margin: 4px;
+    border-radius: 50%;
+}
+
+.rounded-icon:hover {
+    color: white;
+    background-color: black;
+}
+
+.squared-icon-small {
+    transition: 70ms linear;
+    box-shadow: 0 0 3px white;
+    background-color: alpha(black, 0.8);
+    margin: 4px;
+    border-radius: 5px;
+}
+
+.squared-icon-small:hover {
+    background-color: black;
+}
+
+.overlay-button {
+    transition: 0ms linear;
+    background: none;
+    color: alpha(white, 0.9);
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-image: none;
+    box-shadow: none;
+	border-image-source: none;
+	opacity: 0.9;
+	padding: 6px;
+	border-radius: 5px;
+}
+
+.overlay-button:hover {
+    transition: 500ms linear;
+    color: white;
+    background-color: black;
+}
+
+.overlay-button-rounded {
+    transition: 0ms linear;
+    background: none;
+    color: alpha(white, 0.9);
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-image: none;
+    box-shadow: none;
+	border-image-source: none;
+	opacity: 0.9;
+	padding: 10px;
+	border-radius: 50px;
+}
+    
+.overlay-button-rounded:hover {
+    transition: 500ms linear;
+    color: white;
+    background-color: black;
+}
+
+.padding {
+    padding: 5px;
+}
+
+.no-padding {
+    padding: 0px;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+.no-border {
+    border: none;
+    background-image: none;
+}
+
+.queued {
+    border-radius: 5px;
+    color: @theme_selected_fg_color;
+    background-color: @theme_selected_bg_color;
+}
+
+.drag-down {
+    background-image: -gtk-gradient (linear,
+                                     left top,
+                                     left bottom,
+                                     from (@theme_bg_color),
+                                     color-stop (0.9, @theme_bg_color),
+                                     to (@theme_selected_bg_color));
+}
+
+.drag-up {
+    background-image: -gtk-gradient (linear,
+                                     left top,
+                                     left bottom,
+                                     from (@theme_selected_bg_color),
+                                     color-stop (0.1, @theme_bg_color),
+                                     to (@theme_bg_color));
+}
+
+.trackswidget {
+	background-color: transparent;
+}
+
+.albumrow {
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: none;
+	background-color: transparent;
+  	color: inherit;
+}
+
+.albumrow .album-menu-button {
+	border-color: transparent;
+	background-color: transparent;
+	color: transparent;
+}
+
+.albumrow:hover .album-menu-button {
+  	color: inherit;	
+}
+
+.albumrow-hover .album-menu-button {
+  	color: inherit;	
+}
+
+.albumrow-hover .album-menu-button:hover {
+	border-color: alpha(@theme_fg_color, 0.1);
+}
+
+.albumrow:selected {
+    border-radius: 0px;
+    background-color: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
+}
+
+.albumrow:visited {
+    color: @theme_fg_color;
+    background-color: alpha(@theme_selected_bg_color, 0.1);
+}
+.albumrow:visited label {
+    color: @theme_fg_color;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.trackrow {
+    padding: 0px;
+    min-height: 32px;
+    box-shadow: none;
+	background-color: transparent;
+  	color: inherit;
+}
+
+.trackrow:hover {
+    border-radius: 5px;
+	background-color: alpha(@theme_fg_color, 0.05);
+  	color: inherit;
+}
+
+.trackrow:selected {
+    border-radius: 0px;
+    background-color: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
+}
+
+.trackrow:visited {
+    border-radius: 0px;
+	background-color: alpha(red, 0.1);
+    color: @theme_fg_color;
+}
+
+.trackrowplaying {
+    border-radius: 5px;
+    padding: 0px;
+    min-height: 32px;
+	background-color: alpha(@theme_fg_color, 0.07);
+  	color: inherit;
+}
+
+.trackrowplaying:selected {
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
+}
+
+.trackrowplaying .loved-button {
+	background-color: transparent;
+	border-color: transparent;
+	color: transparent;
+}
+
+.trackrowplaying:hover .loved-button {
+	border-color: transparent;
+	color: inherit;
+}
+
+.trackrowplaying:hover .loved-button:hover {
+	border-color: alpha(#000000, 0.1);
+}
+
+.trackrowplaying .menu-button {
+	background-color: transparent;
+    border-color: transparent;
+  	color: transparent;
+}
+
+.trackrowplaying:hover .menu-button {
+	border-color: transparent;
+  	color: inherit;
+}
+
+.trackrowplaying:hover .menu-button:hover {
+	border-color: alpha(#000000, 0.1);
+}
+
+.trackrow .loved-button {
+	border-color: transparent;
+	background-color: transparent;
+	color: transparent;
+}
+
+.trackrow .menu-button {
+	border-color: transparent;
+	background-color: transparent;
+	color: transparent;
+}
+
+.trackrow:hover .loved-button {
+	color: inherit;
+}
+
+.trackrow:hover .menu-button {
+  	color: inherit;
+}
+
+.trackrow:hover .loved-button:hover {
+	border-color: alpha(@theme_fg_color, 0.1);
+}
+
+.trackrow:hover .menu-button:hover {
+	border-color: alpha(@theme_fg_color, 0.1);
+}
+
+.album-menu-selected .album-menu-button{
+	border-color: alpha(@theme_fg_color, 0.1);
+  	color: inherit;
+}
+
+.track-menu-selected {
+	background-color: alpha(@theme_fg_color, 0.03);
+  	color: inherit;
+}
+
+.track-menu-selected .track-loved-button {
+	border-color: alpha(@theme_fg_color, 0.1);
+	color: inherit;
+}
+
+.track-menu-selected .track-menu-button {
+	border-color: alpha(@theme_fg_color, 0.1);
+  	color: inherit;
+}
+
+.menu-button-48 {
+    opacity: 0.7;
+	box-shadow: none;
+	min-height: 32px;
+	min-width: 48px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-image: none;
+	border-style: solid;
+	border-image-source: none;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: transparent;
+    color: inherit;
+}
+
+
+.menu-button-48:disabled {
+    opacity: 0.4;
+}
+
+.menu-button-48:hover {
+    color: inherit;
+    border-color: alpha(@theme_fg_color, 0.1);
+  	opacity: 1;
+}
+
+
+.menu-button {
+    opacity: 0.7;
+	box-shadow: none;
+	min-height: 24px;
+	min-width: 24px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-image: none;
+	border-style: solid;
+	border-image-source: none;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: transparent;
+    color: inherit;
+}
+
+.menu-button:disabled {
+    opacity: 0.4;
+}
+
+.menu-button:hover {
+    color: inherit;
+    border-color: alpha(@theme_fg_color, 0.1);
+  	opacity: 1;
+}
+
+
+.album-menu-button {
+    opacity: 0.7;
+	box-shadow: none;
+	min-height: 24px;
+	min-width: 24px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-image: none;
+	border-style: solid;
+	border-image-source: none;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: transparent;
+    color: inherit;
+}
+
+.album-menu-button:hover {
+    border-color: alpha(@theme_fg_color, 0.1);
+    opacity: 1;
+  	color: inherit;
+}
+
+
+.loved-button {
+	box-shadow: none;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-image: none;
+	color: inherit;
+}
+
+.loved-button:hover {
+	border-color: alpha(@theme_fg_color, 0.1);
+	color: inherit;
+}
+
+.popover-rating-loved-grid {
+        /* (modelbutton's min-height(26px) - icon-height(16px)) / 2
+         * + popover.menu's margin(2px) & padding(4px)
+         */
+        margin-bottom: 11px;
+}
+
+@keyframes spin {
+  to { -gtk-icon-transform: rotate(1turn); }
+}
+
+.image-rotate {
+  animation-name: spin;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
