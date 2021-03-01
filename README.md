@@ -46,7 +46,7 @@ song with id '411' will be added to queue
 
 ```bash
 $ git clone https://anhsirk0/lollypop_music_player
-$ cd lollypop*
+$ cd lollypop
 $ meson builddir --prefix=/usr
 # sudo ninja -C builddir install
 ```
