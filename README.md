@@ -2,8 +2,6 @@
 
 Official app: https://gitlab.gnome.org/World/lollypop
 
-Lollypop is a new GNOME music playing application.
-
 ## my changes
 Added an option to add song to queue from commandline through the song id
 I needed this option for a rofi script i wrote to manage song on the go
@@ -26,7 +24,7 @@ $ lollypop --set-next 411
 
 song with id '411' will be added to queue
 
-*the rofi script also include*
+*the rofi script also included*
 ![rofi.png](https://github.com/anhsirk0/lollypop_music_player/blob/master/rofi/rofi.png)
 
 ## Depends on
