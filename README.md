@@ -8,7 +8,7 @@ Lollypop is a new GNOME music playing application.
 Added an option to add song to queue from commandline through the song id
 I needed this option for a rofi script i wrote to manage song on the go
 
-P.S. this based on an old version of Lollypop (I like two column view & its not available in newer versions)
+P.S. this is based on an older version of Lollypop (I like two column view & its not available in newer versions)
 ### to get songs id 
 ```bash
 $ echo "select id, name from tracks;" | sqlite3 ~/.local/share/lollypop/lollypop.db
@@ -27,7 +27,7 @@ $ lollypop --set-next 411
 song with id '411' will be added to queue
 
 *the rofi script also include*
-[rofi.png]()
+[rofi.png](https://github.com/anhsirk0/lollypop_music_player/blob/master/rofi/rofi.png)
 
 ## Depends on
 
