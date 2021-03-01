@@ -27,7 +27,7 @@ $ lollypop --set-next 411
 song with id '411' will be added to queue
 
 *the rofi script also include*
-[rofi.png](https://github.com/anhsirk0/lollypop_music_player/blob/master/rofi/rofi.png)
+![rofi.png](https://github.com/anhsirk0/lollypop_music_player/blob/master/rofi/rofi.png)
 
 ## Depends on
 
