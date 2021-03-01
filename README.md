@@ -3,7 +3,7 @@
 Official app: https://gitlab.gnome.org/World/lollypop
 
 ## my changes
-Added an option to add song to queue from commandline through the song id
+Added an option to add song to queue from terminal through the song id
 I needed this option for a rofi script i wrote to manage song on the go
 
 P.S. this is based on an older version of Lollypop (I like two column view & its not available in newer versions)
