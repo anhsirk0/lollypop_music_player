@@ -322,6 +322,7 @@ class Window(Gtk.ApplicationWindow, AdaptiveWindow):
             name = player.current_track.name
             name = re.sub("\(.*\)", "", name).strip()
             artist = player.current_track.artists[0]
+            artist = re.sub("\(.*\)", "", artist).strip()
             self.set_title("%s - %s" % (name, artist))
 
     def __on_focus_out_event(self, window, event):
