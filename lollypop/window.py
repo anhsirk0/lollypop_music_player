@@ -21,6 +21,7 @@ from lollypop.logger import Logger
 from lollypop.adaptive import AdaptiveWindow
 from lollypop.utils import is_unity, get_headerbar_buttons_width
 
+import re
 
 class Window(Gtk.ApplicationWindow, AdaptiveWindow):
     """
@@ -318,8 +319,10 @@ class Window(Gtk.ApplicationWindow, AdaptiveWindow):
         if App().player.current_track.id is None:
             self.set_title("Lollypop")
         else:
-            artists = ", ".join(player.current_track.artists)
-            self.set_title("%s - %s" % (artists, "Lollypop"))
+            name = player.current_track.name
+            name = re.sub("\(.*\)", "", name).strip()
+            artist = player.current_track.artists[0]
+            self.set_title("%s - %s" % (name, artist))
 
     def __on_focus_out_event(self, window, event):
         """

@@ -5,6 +5,8 @@ Official app: https://gitlab.gnome.org/World/lollypop
 ## my changes
 Added an option to add song to queue from terminal through the song id
 I needed this option for a rofi script i wrote to manage song on the go
+I also modified how its set title of window
+"artists1, artist2 - Lollypop" -> "title - artist1"
 
 P.S. this is based on an older version of Lollypop (I like two column view & its not available in newer versions)
 ### to get songs id 
